@@ -1,0 +1,15 @@
+tests/EmailFriendTest.class
+tests/RegisteredUserCheckoutProduct.class
+tests/SearchProductUsingAutoSuggestion.class
+utilities/Helper.class
+tests/UserRegisterationTest.class
+tests/MyAccountTest.class
+tests/AddProductReviewTest.class
+tests/ChangeCurrencyTest.class
+tests/AddProductToShoppingCart.class
+tests/TestBase.class
+tests/SearchProductTest.class
+tests/ContactUsTest.class
+tests/ProductHoverMenuTest.class
+tests/AddProductToCompare.class
+tests/AddProductToWishListTest.class
