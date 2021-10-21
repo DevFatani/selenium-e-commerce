@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite parallel="false" name="nopcommerce Regression Suite">
-	<parameter name="browser" value="chrome" />
+	<parameter name="browser" value="chrome-headless" />
 	<test name="Regression Test" preserve-order="true">
 		<classes>
 			<!-- <class name="tests.UserRegisterationTest" />
@@ -8,14 +8,14 @@
 			<class name="tests.AddProductToCompare" />
 			<class name="tests.AddProductToShoppingCart" />
 			<class name="tests.AddProductToWishListTest" />
-			<class name="tests.ChangeCurrencyTest" />
-			<class name="tests.ContactUsTest" /> -->
+			<class name="tests.ChangeCurrencyTest" /> -->
 			<!-- <class name="tests.UserRegisterationWithDDTAndDataProvider"></class> -->
 			<!-- <class name="tests.UserRegisterationWithDDTAndPropertiesFile"/> -->
 			<!-- <class name="tests.UserRegisterationWithDDTAndExcel"/> -->
 			<!-- <class name="tests.UserRegisterationWithDDTAndJSON"/> -->
-			<!-- <class name="tests.UserRegisterationWithJavaFaker"/> -->
-			<class name="runner.TestRunner"/>
+			 <class name="tests.UserRegisterationWithJavaFaker"/>
+			 <class name="tests.ContactUsTest" />
+	<!-- <class name="runner.TestRunner"/> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
